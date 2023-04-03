@@ -1,0 +1,105 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+header nav{
+    /* background-color: #666; */
+    justify-content: center;
+    height: 2.7em;
+    border-radius: 1em;
+    /* position: fixed; */ /* Si on veut la laisser en haut de la page ! */ 
+    width: 100%;
+    top: 0;
+    margin-bottom: -5em; /* permet juste de coller l'image au top */
+}
+
+/* a modifier parce que c'est déguelasse ! */
+header .brand-logo{
+    padding-left: 0.8em;
+    font-size: 2.3em;
+    color: white;
+    text-decoration: none; /* pour qu'il ne soit pas souligné  */
+    vertical-align: middle;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    float:right;
+}
+header li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.8em 0.8em 0.8em 0.8em;
+    margin-right: 2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header li a:hover {
+    background-color: #111;
+}
+
+
+
+/* ------------------Profile page--------------------------- */
+
+.profile-page{
+width:100%; 
+background-image: url("images/sunset.jpg"); 
+background-size:cover; 
+background-position: center center; 
+}
+
+.profile-page .content-center{
+    text-align:center;
+    top: 0;
+}
+
+.profile-page p{
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.cc-profile-image{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.cc-profile-image a {
+    position: relative; }
+.cc-profile-image img {
+    position: relative;
+    border-radius: 50%;
+    height: 16em;
+    width: 16em;
+    border: 15px solid transparent;
+    z-index: 9999;
+    transition: all .3s ease-out; }
+.cc-profile-image a:hover img {
+    transform: scale(1.16, 1.16); }
+
+
+
+/* -----------------Table of contents------------------------ */
+/* https://css-tricks.com/a-perfect-table-of-contents-with-html-css/ */
+.table_of_contents {
+    padding: 0;
+    margin-bottom: 5em;
+}
+.table_of_contents p{
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.table_of_contents a{
+    color: black;
+    text-decoration: none;
+}
+.table_of_contents a:hover{
+    font-weight: bold;
+}
