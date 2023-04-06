@@ -48,10 +48,10 @@ header li a:hover {
 /* ------------------Profile page--------------------------- */
 
 .profile-page{
-width:100%; 
-background-image: url("images/sunset.jpg"); 
-background-size:cover; 
-background-position: center center; 
+    width:100%; 
+    background-image: url("../images/valdivia/sunset.jpg"); 
+    background-size:cover; 
+    background-position: center center; 
 }
 
 .profile-page .content-center{
