@@ -15,9 +15,6 @@ body{
     display: block;
 }
 
-h1{
-    margin-top: 3em;
-}
 h1, h2{
     color: black;
     text-align: center;
@@ -29,12 +26,13 @@ body {
         counter-reset: h1 h2 ; 
     } 
 h1:before {     
-    content: counter(h1) "  " ;     
+    /* content: counter(h1) "  " ;      */
     counter-increment: h1 ; 
 } 
 h2:before {     
     /* On insére la numérotation sur deux niveaux */     
-    content: counter(h1) "." counter(h2) "  " ;     
+    /* content: counter(h1) "." counter(h2) "  " ;      */
+    content: counter(h2) "  " ;
     counter-increment: h2 ; 
 } 
 h1 {
