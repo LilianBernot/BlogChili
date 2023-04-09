@@ -1,6 +1,12 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1080px) {
     body{
-        width: 1000px;
+        width: 1080px;
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    button{
+        font-size: 2em;
     }
 }
