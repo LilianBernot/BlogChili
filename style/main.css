@@ -11,6 +11,13 @@ body{
     text-align: justify;
 }
 
+.step{
+    display: block;
+}
+
+h1{
+    margin-top: 3em;
+}
 h1, h2{
     color: black;
     text-align: center;

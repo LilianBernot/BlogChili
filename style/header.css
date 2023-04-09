@@ -88,7 +88,7 @@ header li a:hover {
 /* https://css-tricks.com/a-perfect-table-of-contents-with-html-css/ */
 .table_of_contents {
     padding: 0;
-    margin-bottom: 5em;
+    /* margin-bottom: 5em; */
 }
 .table_of_contents p{
     color: black;

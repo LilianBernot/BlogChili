@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="style/header.css">
         <link rel="stylesheet" href="style/images.css">
         <link rel="stylesheet" href="style/responsive.css">
+        <link rel="stylesheet" href="style/actions.css">
         
         <title>Lilian au Chili !</title>
         <link rel="shortcut icon" href="images/photo_cv.jpg" /> <!-- Images de logo de la barre de recherche -->
@@ -28,7 +29,7 @@
             </div>
         </div>
 
-        <div class="table_of_contents">
+        <div class="table_of_contents" id="first_table_of_contents">
             <p>Índice de contenidos</p>
             <ul>
                 <li>
@@ -37,7 +38,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#vacaciones_antes_clases">
+                    <a href="#holidays_before_classes">
                     <span class="title">Primeras vacaciones antes de las clases !</span>
                     </a>
                 </li>
@@ -50,8 +51,41 @@
         </div>
 
 <!-- Arrivée à Santiago !!!!! -->
-        <div class="big_step" id="llegada_santiago">
+
+        <div class="step_title">
             <h1>Arrivée à Santiago !</h1>
+            <div class="buttons_step">
+                <button id="button_santiago_1" onclick="toggleShowList('button_santiago_1', 'llegada_santiago')">Fermer étape</button>
+                <button><a href="#first_table_of_contents">Retourner table des matières</a></button>
+            </div>
+        </div>
+
+        <div class="big_step" id="llegada_santiago">
+
+            <div class="table_of_contents">
+                <ul>
+                    <li>
+                        <a href="#step_valparaiso">
+                        <span class="title">Valparaiso / Viña del mar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#step_valdivia">
+                        <span class="title">Valdivia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#step_puerto_varas">
+                        <span class="title">Puerto Varas</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#step_chiloe">
+                        <span class="title">Chiloé</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
             <h2>Premiers instants</h2>
             <div class="ligne">
@@ -215,11 +249,50 @@
 
 
 <!-- Voyage avant les cours !!!!!! -->
-        <div class="big_step" id="vacaciones_antes_clases">
+        <div class="step_title">
             <h1>Voyage avant les cours !</h1>
+            <div class="buttons_step">
+                <button id="button_holidays_before_classes" onclick="toggleShowList('button_holidays_before_classes', 'holidays_before_classes')">Fermer étape</button>
+                <button><a href="#first_table_of_contents">Retourner table des matières</a></button>
+            </div>
+        </div>
+        <div class="big_step" id="holidays_before_classes">
 
-            <div class="step">
+            <div class="table_of_contents">
+                <ul>
+                    <li>
+                        <a href="#step_valparaiso">
+                        <span class="title">Valparaiso / Viña del mar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#step_valdivia">
+                        <span class="title">Valdivia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#step_puerto_varas">
+                        <span class="title">Puerto Varas</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#step_chiloe">
+                        <span class="title">Chiloé</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+<!--  -->
+            <div class="step_title">
                 <h2>Direction Valparaiso / Viña del mar !</h2>
+                <div class="buttons_step">
+                    <button id="button_valparaiso" onclick="toggleShowList('button_valparaiso', 'step_valparaiso')">Fermer étape</button>
+                    <button><a href="#holidays_before_classes">Retourner à la grande étape</a></button>
+                </div>
+            </div>
+
+            <div class="step" id="step_valparaiso">
 
                 <h3>Je saute dans le bus !</h3>
                 <div class="ligne">
@@ -432,7 +505,6 @@
                         <img src="images/valparaiso/monstera.jpg" alt="">
                     </div>
                 </div>
-            </div>
                 <p>Le soir on cuisine à l'hostel et rencontre une personne bien inspirante : un français d'une trentaine d'année parti depuis 1 an pour trouver un lieu où s'installer et créer son propre hostel. 
                     On boît ses paroles lorsqu'il nous raconte tous les lieux où il est allé. 
                 </p>
@@ -465,9 +537,16 @@
                     Aïno rentre chez elle alors que Lauranne part au nord, et moi direction le sud ! 
                 </p>
             </div>
-    
-            <div class="step">
+<!--  -->
+            <div class="step_title">
                 <h2>Direction Valdivia</h2>
+                <div class="buttons_step">
+                    <button id="button_valdivia" onclick="toggleShowList('button_valdivia', 'step_valdivia')">Fermer étape</button>
+                    <button><a href="#holidays_before_classes">Retourner à la grande étape</a></button>
+                </div>
+            </div>
+    
+            <div class="step" id="step_valdivia">
 
                 <h3>Ville remplie de surprises</h3>
                 <p>J'arrive à Valdivia après une bonne nuit dans le bus, sans avoir de logement pour le soirée. 
@@ -728,10 +807,16 @@
                 <p>C'est alors que cette tension horrible se termine et que je me dirige vers le terminal de bus bien reposé, près à entâmer la suite de mon voyage.</p>
             </div>
     
-            <div class="step">
-                <h2>Direction Puerto Varas</h2>
+<!--  -->
+            <div class="step_title">
+                <h2>Puerto Varas !</h2>
+                <div class="buttons_step">
+                    <button id="button_puerto_varas" onclick="toggleShowList('button_puerto_varas', 'step_puerto_varas')">Fermer étape</button>
+                    <button><a href="#holidays_before_classes">Retourner à la grande étape</a></button>
+                </div>
+            </div>
+            <div class="step" id="step_puerto_varas">
 
-                <h3>Puerto Varas !</h3>
                 <p>La ville de Puerto Varas me fait penser à une ville des Alpes, avec des maisons en colombage au bord d'un lac et plein de guitounes touristiques, les devantures des restaurants toutes en bois, etc. 
                     Cependant, une chose qui rend mal en photo, est le volcan que l'on peut voir au fond du lac. 
                     Tout au bout, à quelques kilomètres, apparaît une grosse pointe toute blanche qui dépasse au milieu de rien, ayant une place unique non occupée par d'autres montagnes.
@@ -855,9 +940,17 @@
                 <p>Je passe une journée très agréable à arpenter les rues de Frutillar puis Puerto Octay en mangeant des tonnes de fruits que l'on trouve dans un verger abandonné.</p>
             </div>
 
-            <!-- 
-            <div class="step">
-                <h2>Direction Chiloé</h2>
+            <!-- <div class="step_title">
+                <h2>Direction Chiloé !</h2>
+                <div class="buttons_step">
+                    <button id="button_chiloe" onclick="toggleShowList('button_chiloe', 'step_chiloe')">Fermer étape</button>
+                    <button><a href="#holidays_before_classes">Retourner à la grande étape</a></button>
+                </div>
+            </div>
+            
+            <div class="step" id="step_chiloe">
+                <h3>iuzahd iu h</h3>
+                <p>aieuh qiuahqz diu akqzdi uakqsj</p>
             </div> -->
 
         </div>
@@ -901,4 +994,6 @@
             <p>BERNOT Lilian</p>
         </footer>
     </body>
+    <script src="main.js"></script>
+
 </html>
