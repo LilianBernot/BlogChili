@@ -24,11 +24,11 @@
 .tile:nth-child(4), .tile:nth-child(5){
     grid-column: span 3;
 }
-@media screen and (max-width: 700px){
+/* @media screen and (max-width: 1080px){
     .container{
         display: block;
     }
     .tile{
         margin-bottom: 1rem;
     }
-}
+} */

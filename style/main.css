@@ -71,7 +71,7 @@ footer{
     width:35%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1080px) {
     .ligne .left_70, .right_70, .left_30,.right_30 {
         width: 100%;
     }
