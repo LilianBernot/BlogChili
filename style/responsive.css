@@ -10,3 +10,12 @@
         font-size: 2em;
     }
 }
+
+@media screen and (min-width: 1080px) {
+    header .brand-logo{
+        font-size: 64.8px;
+    }
+    header li a{
+        font-size: 43.2px;
+    }
+}
