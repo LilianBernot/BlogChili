@@ -33,4 +33,7 @@
     .ligne .left_70, .right_70, .left_30,.right_30 {
         width: 100%;
     }
+    body p{
+        padding: 20px;
+    }
 }
