@@ -4,19 +4,21 @@
     bottom: 0;
     left: 0;
     right: 0;
-    font-size: 2vw;
+    font-size: 4vw;
     /* grid */
     display: grid;
+    width: 100%;
     justify-content: center;
     align-content: center;
     gap: 0.5vw;
     grid-template:
-    'la_wea_wena la_wea_wena la_wea_wena la_wea_wena la_wea_wena la_wea_wena la_wea_wena .'
-    '. . . . lata huevon chucha hasta_el_pico'
-    '. muy_bien_po si_po . lata huevon chucha brigido     '
-    '. . si_po que_fome bacan . chucha .'
-    '. raja . que_fome wea . chucha .'
-    'caleta caleta . que_fome . . chucha .';
+    'la_wea_wena la_wea_wena la_wea_wena la_wea_wena la_wea_wena la_wea_wena la_wea_wena la_wea_wena'
+    'altiro altiro       .      .     lata   huevon hasta_el_pico hasta_el_pico'
+    'palla muy_bien_po   cachai  cachai     lata   huevon chucha               .'
+    'chorro     .      si_po que_fome bacan    .    chucha        conchetumadre'
+    'paja     curao      si_po   que_fome cabro    .    chucha        conchetumadre'
+    'caleta   caleta   raja     .     carete carete    .          conchetumadre'
+    'wea     brigido  brigido brigido   .      .       .          conchetumadre';
 }
 /* base font color for all words */
 #word_cloud > div {
@@ -61,7 +63,15 @@
 #muy_bien_po {    grid-area: muy_bien_po;}
 #chucha {    grid-area: chucha;}
 #raja {    grid-area: raja;}
-
+#altiro {    grid-area: altiro;}
+#palla {    grid-area: palla;}
+#cabro {    grid-area: cabro;}
+#chorro {    grid-area: chorro;}
+#conchetumadre {    grid-area: conchetumadre;}
+#paja {    grid-area: paja;}
+#carete {    grid-area: carete;}
+#curao {    grid-area: curao;}
+#cachai {    grid-area: cachai;}
 
 #intro a:link {
     color: rgba(0, 13, 189, 1);
