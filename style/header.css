@@ -100,9 +100,11 @@ header li a:hover {
     font-size: 2em;
     font-weight: bold;
 }
+.table_of_contents li{
+    color: rgba(0, 13, 189, 1);
+}
 .table_of_contents a{
-    color: black;
-    text-decoration: none;
+    color: rgba(0, 13, 189, 1);
 }
 .table_of_contents a:hover{
     font-weight: bold;

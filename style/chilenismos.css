@@ -64,13 +64,13 @@
 
 
 #intro a:link {
-    color: black;
+    color: rgba(0, 13, 189, 1);
 }
 #intro a:hover {
     font-weight: bold;
 }
 #intro a:visited {
-    color: black;
+    color: rgba(0, 13, 189, 1);
 }
 
 .word{
