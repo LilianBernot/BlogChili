@@ -15,7 +15,7 @@
     '. . . . lata huevon chucha hasta_el_pico'
     '. muy_bien_po si_po . lata huevon chucha brigido     '
     '. . si_po que_fome bacan . chucha .'
-    '. . . que_fome wea . chucha .'
+    '. raja . que_fome wea . chucha .'
     'caleta caleta . que_fome . . chucha .';
 }
 /* base font color for all words */
@@ -60,15 +60,16 @@
 #brigido {    grid-area: brigido;}
 #muy_bien_po {    grid-area: muy_bien_po;}
 #chucha {    grid-area: chucha;}
+#raja {    grid-area: raja;}
 
 
-a:link {
+#intro a:link {
     color: black;
 }
-a:hover {
+#intro a:hover {
     font-weight: bold;
 }
-a:visited {
+#intro a:visited {
     color: black;
 }
 
