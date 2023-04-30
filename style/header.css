@@ -102,6 +102,7 @@ header li a:hover {
 }
 .table_of_contents li{
     color: rgba(0, 13, 189, 1);
+    margin: 1em;
 }
 .table_of_contents a{
     color: rgba(0, 13, 189, 1);

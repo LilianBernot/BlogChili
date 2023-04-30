@@ -1,5 +1,6 @@
-Remplir quelques étapes 
-Ajouter une intro : "intercambio..."
-Ajouter une table des matières avec des liens hypertextes
-Ajouter un petit logo dans la barre de recherche à côté du titre 
-Automatiser les numéros des titres
+Ecrire Argentine 
+Ecrire anecdotes 
+Ecrire comida 
+
+santiago_2 : changer la table des matières
+Passer à du jsx pour automatiser un peu les choes. Premièrement, objet "haut de page"
