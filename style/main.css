@@ -40,6 +40,10 @@ h1 {
     counter-reset: h2;
 }
 
+h3{
+    text-align: center;
+}
+
 footer{
     text-align : center;
     font-weight: bold;
