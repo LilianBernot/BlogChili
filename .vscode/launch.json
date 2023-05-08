@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Lancer Chrome en utilisant localhost",
-            "url": "C:/Users/lilia/Documents/blog/index.html",
+            "url": "D:/BlogChili/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
