@@ -1,17 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Header from './shared/header.jsx'
-// import Footer from './common/footer'
-// import './index.css'
-// import Routing from './common/Routing'
-import './style/main.css'
+import Footer from './shared/footer.jsx'
+import Routing from './shared/Routing.jsx'
 
-ReactDOM.createRoot(document.getElementById('page')).render(
+import "./style/main.css"
+import "./style/images.css"
+import "./style/responsive.css"
+
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header />
     <div class="page">
-      {/* <Routing /> */}
+      <Routing />
     </div>
-    {/* <Footer /> */}
+    <Footer />
   </React.StrictMode>,
 )

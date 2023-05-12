@@ -5,12 +5,12 @@ export default function Header() {
     return(
         <header>
             <div class="profile-page">
-                <nav>
+                {/* <nav> */}
                     <a className ="brand-logo">Lilian Bernot</a>
                     <ul>
-                        <li><a href="./index.html">Retour à l'introduction !</a></li>
+                        <li><a href="/">Retour à l'introduction !</a></li>
                     </ul>
-                </nav>
+                {/* </nav> */}
                 <div className ="content-center">
                     <div className ="cc-profile-image"><a href="#"><img src="../images/pichilemu/hammac.jpg" alt="Image"/></a></div>
                 </div>

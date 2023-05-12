@@ -1,261 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="../style/main.css">
-        <link rel="stylesheet" href="../style/header.css">
-        <link rel="stylesheet" href="../style/images.css">
-        <link rel="stylesheet" href="../style/responsive.css">
-        <link rel="stylesheet" href="../style/actions.css">
-        
-        <title>Lilian au Chili !</title>
-        <link rel="shortcut icon" href="../images/photo_cv.jpg" /> <!-- Images de logo de la barre de recherche -->
-    </head>
-    <body>
-
-        <header>
-            <nav>
-                <a class="brand-logo">Lilian Bernot</a>
-                <ul>
-                    <li><a href="../index.html">Acerca de ...</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <div class="profile-page">
-            <div class="content-center" id="home">
-                <!-- <p>Lilian Bernot</p> -->
-                <div class="cc-profile-image"><a href="#"><img src="../images/pichilemu/hammac.jpg" alt="Image"/></a></div>
-            </div>
-        </div>
-
-        <div class="table_of_contents" id="first_table_of_contents">
-            <p>Índice de contenidos</p>
-            <ul>
-                <li>
-                    <a href="#llegada_santiago">
-                    <span class="title">Llegada a Santiago !</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#holidays_before_classes">
-                    <span class="title">Primeras vacaciones antes de las clases !</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#first_part_of_semestre">
-                    <span class="title">Inicio de las clases !</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-<!-- Arrivée à Santiago !!!!! -->
-
-        <div class="step_title">
-            <h1>Arrivée à Santiago !</h1>
-            <div class="buttons_step">
-                <button id="button_santiago_1" onclick="toggleShowList('button_santiago_1', 'llegada_santiago')">Fermer étape</button>
-                <button><a href="#first_table_of_contents">Retourner table des matières</a></button>
-            </div>
-        </div>
-
-        <div class="big_step" id="llegada_santiago">
-
-            <div class="table_of_contents">
-                <ul>
-                    <li>
-                        <a href="#step_valparaiso">
-                        <span class="title">Valparaiso / Viña del mar</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#step_valdivia">
-                        <span class="title">Valdivia</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#step_puerto_varas">
-                        <span class="title">Puerto Varas</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#step_chiloe">
-                        <span class="title">Chiloé</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <h2>Premiers instants</h2>
-            <div class="ligne">
-                <div class="left_70">
-                    <p>Premiers instants au-dessus du sol chilien, pure plaisir pour les yeux. 
-                        On t
-                        raverse la cordillère des andes avec ses sommets gigantesques tout enneigées et ses vallées complètement désertiques.
-                    </p>
-                    <p>J'arrive à Santiago vers 11h du matin et suis récupéré directement à l'aéroport par Tania, propriétaire de mon Airbnb.
-                        Il s'avère qu'elle parle français : elle a passé plusieurs années en suite. 
-                        Je suis tout de suite rassuré : je suis très fatigué du voyage et aie assez peur de parler espagnol, cette petite transition fera du bien.
-                    </p>
-                    <p>Tania me fait faire un petit tour dans la ville pour me montrer quelques lieux importants avant d'arriver à l'appartement. 
-                        ELle me prévient tout de suite : elle part dans l'après-midi pour 3 jours, me donne les clefs et s'en va, sans même fermer la porte de sa chambre. 
-                        Son appart' est très sympa, avec une belle vue sur le cerro San Cristobal qui domine la ville.
-                    </p>
-                </div>
-                <div class="right_30"><img src="../images/santiago_1/avion_vertical.jpg" alt="" width=100%></div>
-            </div>
-
-            <div class="ligne">
-                <div class="left_70">
-                    <div class="container">
-                        <div class="tile">
-                            <img src="../images/santiago_1/arbre_parc.jpg" alt="">
-                        </div>
-                        <div class="tile">
-                            <img src="../images/santiago_1/eglise.jpg" alt="">
-                        </div>
-                        <div class="tile">
-                            <img src="../images/santiago_1/echaffaudage_arbre.jpg" alt="">
-                        </div>
-                        <div class="tile">
-                            <img src="../images/santiago_1/cactus_carre.jpg" alt="">
-                        </div>
-                        <div class="tile">
-                            <img src="../images/santiago_1/course_velo.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="right_30">
-                    <p>Le lendemain je me promène un peu dans la rue, un peu submergé par tout ce qui se passe : la ville est en constante effervescence avec des gens partout qui parlent une langue à laquelle je ne suis pas encore habitué, des infrastructures que je n'ai pas l'habitude de voir, des panneaux de signalisation différents, des conducteurs ultra rapides, des piétons inconscients qui marchent le long des nationales, etc. 
-                    Parmi tout ça, j'ai du mal à détacher des éléments plus remarquables que les autres.
-                </p></div>
-            </div>
-
-            <h2>Se perdre dans la ville</h2>
-            <div class="ligne">
-                <div class="left_70">
-                    <p>Première grosse étape de l'arrivée : la recherche de carte SIM. 
-                        Je me lance dans la ville en me dirigeant toujours vers l'ouest pour être sur de me retrouver : j'ai généralement une bonne mémoire géographique, je ne devrais pas avoir de problème. 
-                    </p>  
-                    <p>Au bout d'une heure de marche, je rentre dans un grand magasin susceptible d'avoir ce que je veux. 
-                        Je passe un heure à tout regarder, tous les produits qui existent dans le magasin. 
-                        La seule marque que je connais est Oreo, chose que je comprendrais plus tard : les chiliens sont fous de "galletas", biscuits tels que les Oreo ou Prince, constitué de deux biscuits avec une pâte/crème au milieu. 
-                        A la caisse je demande une carte prépayée et plusieurs gens tentent de m'expliquer en même temps leurs fonctionnements, la différence entre les marques, etc. Très gentil ! 
-                    </p>
-                    <p>Je ressors tout fier du magasin par l'autre côté (l'entrée est dans une rue, la sortie dans une autre) et me dirige vers ce que je pense être l'est pour retouner sur mes pas ! 
-                        Au bout d'une heure de marche je ne me repère toujours pas, je ne reconnais rien de ce que j'avais vu avant : les grands axes, immeubles, le cerro, etc. 
-                        Je vérifie donc ma localisation : je suis à 2h de marche de la maison. 
-                        Il s'avère en fait qu'ici le soleil n'est pas au sud, mais au nord ! 
-                        Le passage au magasin m'a complètement embrouillé et je me suis mis à marcher dans la mauvaise direction !
-                    </p>        
-                </div>
-                <div class="right_30">
-                    <img src="../images/santiago_1/carabineros.jpg" width="100%">
-                </div>
-            </div>
-
-            <h2>Rencontre avec Nico !</h2>
-            <p>Au bout de quelques jours je rencontre Nico, ami de Macka, chilienne que j'ai rencontré à Paris au repas des étrangers de PSL ! 
-                Il me propose d'aller grimper au "hangar", salle de bloc la plus grande de Santiago. 
-                Je le rejoins après le travail pour aller ensemble jusque chez lui. 
-                Il a un accent très prononcé mais fait beaucoup d'efforts pour se faire comprendre. 
-                Il m'explique beaucoup de choses sur le fonctionnement de la ville, notamment les métros : certaines lignes ont deux couleurs, rouge et vert, signifiant les stations qu'elles desservent durant les heures de pointe. 
-                Elles ne desservent pas tout pour fluidifier le trafic. 
-            </p>
-            <div class="ligne">
-                <div class="left_70">
-                    <img src="../images/santiago_1/esc_2.jpg" width="100%">
-                </div>
-                <div class="right_30">
-                    <p>Chez lui on attend sa femme avec qui on va aller grimper. 
-                        On discute pendant 1h des sites du Chili, je lui parle de lieux que j'aimerai voir, etc. 
-                        Quand sa femme arrive, on monte dans la voiture avec leur bébé qui n'a que quelques mois, direction la salle d'escalade! 
-                        La salle est très grande, avec des tonnes de prises ! 
-                        La séance est excellente même si je suis encore fatigué de tous les changements subis. 
-                        Nico m'offre la séance et pour terminer avec sa bonté exagérée il me ramène jusqu'à la maison en voiture. 
-                        Nico est vraiment la première rencontre incroyable que je fais au Chili.
-                    </p>
-                </div>
-
-            </div>
-
-            <h2>Recherche d'appartement</h2>
-            <p>Si je suis à Santiago c'est avant tout pour trouver un appartement. 
-                Je passe deux jours sur CompartoDepto et le MarketPlace de Facebook pour trouver quelque chose. 
-                Je fais de nombreuses visites, toutes plus spéciales les unes que les autres. 
-                J'ai aussi des bonnes surprises au passage parmi de nombreuses maisons partagées super difficile à atteindre, sales, avec des gens bizarres, etc. 
-            </p>
-            <p>La pire des maisons que j'ai visité se trouvait dans le barrio de Yungay. 
-                Me dirigeant dans sa direction, je me retrouve à marcher 15 min dans des rues complètement vides, pas une voiture, pas un piéton. 
-                Le quartier est composé de plein de petites maisons toutes taguées, avec des grilles aux fenêtres et des carreaux cassés. 
-                En plein milieu de ce quartier fantôme je tombe sur quelqu'un qui me tend la main : je suis arrivé à destination. 
-                La porte d'entrée est blindée, toutes les fenêtres sont protégées de grosses gilles métalliques. 
-                L'intérieur est plutôt propre, avec plein de parties en rénovation, terminant fin février. 
-                J'entends du français : une fille dans la maison est la première française que je croise depuis quelques jours. 
-                La maison es très sympa avec un patio central avec vigne et cuisine extérieur qui rend le lieu très sympa. 
-                Les chambres proposées sont par contre très flippantes : une de 6 mètres carrés en enfilade et une autre au rez-de-chaussée, côté rue... 
-                Il y a même une salle de bain dont la porte ferme mal, il faut passer par l'extérieur pour y aller, il y a un grand jour en haut et en bas de la porte et pour courroner le tout, pas d'eau chaude. 
-                Bref, c'est trop pour moi, je m'en vais déçu tellement l'annonce était différente de la réalité.
-            </p>
-            <p>C'est tout désespéré que je rencontre Knut, propriétaire de 3 maisons d'étudiants dans un quartier très tranquille avec un super parc et à 25min de l'université en métro ! 
-                Les deux maisons qu'il me montre sont très propes et bien agencées, il y a des chambres qui me plaisent et le courant passe bien avec lui. 
-                Tous les éléments sont enfin réunis. Je dis à Knut que je lui confirme le soir pour la chambre. 
-                Il me réserve donc la chambre n°8 de la première casa, en me promettant qu'il ne la proposera pas aux autres visiteurs. 
-                Le lendemain je viens avec l'argent du premier mois : il y a actuellement quelqu'un dans la chambre jusqu'au premier mars donc je ne paierai que le mois de mars, à partir de mon retour de vacances.
-                Je lui laisse ma valise pour le temps du voyage afin d'être léger et la retrouver à mon retour ! 
-                Je peux partir tranquille !
-            </p>
-
-            <h2>Début des vacances !</h2>
-            <div class="ligne">
-                <div class="left_70">
-                    <p>Avant de partir, je recroise Tania qui me permet de rester un jour de plus dans son appart.
-                        Je découvre alors les "coquitos" : fruits d'un palmier du coin. 
-                        Ca ressemble à des petites noix de coco et a exactement le même goût ! 
-                        On enlève la coque et on les croque ! Très surprenant !
-                    </p>
-                </div>
-                <div class="right_30">
-                    <img src="../images/santiago_1/coquitos.jpg" width="100%">
-                </div>
-            </div>
-            <p>J'ai donc maintenant le temps de choisir ma destination. 
-                Le plan initial était d'aller à Valdivia pour aller grimper au site "roca oceanica", site de bloc en bord de mer ! 
-                Seulement, il y a des feux dans toutes les régions sud et j'ai peur de ne pas pouvoir y aller en bus, voire de ne pas pouvoir rentrer sur Santiago... 
-                C'est à ce moment qu'une fille sur le groupe des français au Chili propose d'aller à Valparaiso dans 2 jours. 
-                Ni une ni deux, le lendemain matin je prends un bus pour Valparaiso, sans savoir quoi faire sur place ni ou dormir. 
-                De toutes façons, je n'ai pas de chambre dans Santiago avant le 1 mars !
-            </p>
-
-            <div class="container">
-                <div class="tile">
-                    <img src="../images/santiago_1/cerro_rue.jpg" alt="">
-                </div>
-                <div class="tile">
-                    <img src="../images/santiago_1/arbre_cerro.jpg" alt="">
-                </div>
-                <div class="tile">
-                    <img src="../images/santiago_1/coucher_soleil.jpg" alt="">
-                </div>
-                <div class="tile">
-                    <img src="../images/santiago_1/hammac.jpg" alt="">
-                </div>
-                <div class="tile">
-                    <img src="../images/santiago_1/rio.jpg" alt="">
-                </div>
-            </div>
-        </div>
-
-
-<!-- Voyage avant les cours !!!!!! -->
-        <div class="step_title">
-            <h1>Voyage avant les cours !</h1>
-            <div class="buttons_step">
-                <button id="button_holidays_before_classes" onclick="toggleShowList('button_holidays_before_classes', 'holidays_before_classes')">Fermer étape</button>
-                <button><a href="#first_table_of_contents">Retourner table des matières</a></button>
-            </div>
-        </div>
+export default function HolydaysBeforeClasses() {
+    return(
+    <div>
+        <h1>Voyage avant les cours !</h1>
         <div class="big_step" id="holidays_before_classes">
 
             <div class="table_of_contents">
@@ -283,13 +29,9 @@
                 </ul>
             </div>
     
-<!--  -->
+{/* <!-- ---------- Valparaiso ---------- --> */}
             <div class="step_title">
                 <h2>Direction Valparaiso / Viña del mar !</h2>
-                <div class="buttons_step">
-                    <button id="button_valparaiso" onclick="toggleShowList('button_valparaiso', 'step_valparaiso')">Fermer étape</button>
-                    <button><a href="#holidays_before_classes">Retourner à la grande étape</a></button>
-                </div>
             </div>
 
             <div class="step" id="step_valparaiso">
@@ -297,7 +39,7 @@
                 <h3>Je saute dans le bus !</h3>
                 <div class="ligne">
                     <div class="left_30">
-                        <img src="../images/valparaiso/terminal.jpg" alt="" width="100%">
+                        <img src="../images/valparaiso/terminal.jpg" alt="" width="100%"></img>
                     </div>
                     <div class="right_70">
                         <p>Je me dirige donc au terminal de bus pour partir pour Valparaiso ! 
@@ -319,18 +61,19 @@
                             Des <i>cuchufli</i> et des <i>cocolas</i>. 
                             Les cuchufli c'est vaiment un coup de coeur : sorte de petit roll avec une pâte un peu molle et dedans du "manjar", confiture de lait ! 
                             Les cocolas sont aussi excellentes, même si plus tard je renverserai toute la coco dans mon sac...
-                        </p>Avant de descendre du bus, ma voisine me donne son numéro de téléphone, me disant qu'au moindre besoin je pouvais l'appeler. </p>        
+                        </p>
+                        <p>Avant de descendre du bus, ma voisine me donne son numéro de téléphone, me disant qu'au moindre besoin je pouvais l'appeler. </p>        
                     </div>
                     <div class="right_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/valparaiso/sucreries_1.jpg" alt="">
+                                <img src="../images/valparaiso/sucreries_1.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/sucreries_cuchufli.jpg" alt="">
+                                <img src="../images/valparaiso/sucreries_cuchufli.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/sucreries_2.jpg" alt="">
+                                <img src="../images/valparaiso/sucreries_2.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -346,60 +89,57 @@
                     <div class="right_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/valparaiso/maison_rochers_2.jpg" alt="">
+                                <img src="../images/valparaiso/maison_rochers_2.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/plante_4_copie.jpg" alt="">
+                                <img src="../images/valparaiso/plante_4_copie.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/plante_3_copie.jpg" alt="">
+                                <img src="../images/valparaiso/plante_3_copie.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/plante_2.jpg" alt="">
+                                <img src="../images/valparaiso/plante_2.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/plante_1_copie.jpg" alt="">
+                                <img src="../images/valparaiso/plante_1_copie.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                
 
                 <div class="ligne">
                     <div class="left_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/valparaiso/rochers_1.jpg" alt="">
+                                <img src="../images/valparaiso/rochers_1.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/rochers_voie.jpg" alt="">
+                                <img src="../images/valparaiso/rochers_voie.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/dune.jpg" alt="">
+                                <img src="../images/valparaiso/dune.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/rochers_voie_2.jpg" alt="">
+                                <img src="../images/valparaiso/rochers_voie_2.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/rochers_oiseaux.jpg" alt="">
+                                <img src="../images/valparaiso/rochers_oiseaux.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
                     
                     <div class="right_30">
-                        <p>J'arrive finalement au spot : c'est en fait une sorte de petite coline qui dépasse sur la mer, avec une grosse grille pour empêcher le passage. 
+                        <p>J'arrive finalement au spot : c'est en fait une sorte de petite colline qui dépasse sur la mer, avec une grosse grille pour empêcher le passage. 
                             Il y a plein de personnes de l'autre côté de la grille, alors je décide de faire comme eux et de la contourner. 
                             Le lieu est en fait un ancien parc, fermé pour je ne sais quelle raison. 
                             Il y a encore plein de panneaux indicatifs sur la faune du coin : oiseaux, poissons, otaries, etc. 
                         </p>
-                        <p>Le spot est incroyable. En contre-bas de la coline, côté mer, il faut désecalader une grande dalle pour se retrouver directement au pied d'une voie d'une dizaine de mètres, dans une roche rougeatre. 
+                        <p>Le spot est incroyable. En contre-bas de la colline, côté mer, il faut désecalader une grande dalle pour se retrouver directement au pied d'une voie d'une dizaine de mètres, dans une roche rougeatre. 
                             Dans le petit goulot, direction la mer, la partie de blocs, impressionnante avec toutes ces tâches blanches sur cette roche parfaitement noire. 
                             N'ayant personne avec moi pour grimper, je me résigne à repartir pour mieux revenir un autre jour, maintenant que je connais le spot.
                         </p>
                     </div>
                 </div>
-
                 
                 <div class="ligne">
                     <div class="left_30">
@@ -415,25 +155,24 @@
                     <div class="right_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/valparaiso/immeubles_cotiers.jpg" alt="">
+                                <img src="../images/valparaiso/immeubles_cotiers.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/playa_deporte.jpg" alt="">
+                                <img src="../images/valparaiso/playa_deporte.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/otaries.jpg" alt="">
+                                <img src="../images/valparaiso/otaries.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/elevator_copie.jpg" alt="">
+                                <img src="../images/valparaiso/elevator_copie.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valparaiso/aloe.jpg" alt="">
+                                <img src="../images/valparaiso/aloe.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                
+                               
 
                 <h3>Petite frayeur</h3>
                 <p>Le soir je dors dans un hostel où je me fais deux bonnes frayeurs. 
@@ -480,7 +219,7 @@
                         </p>
                     </div>
                     <div class="right_30">
-                        <img src="../images/valparaiso/bus_1.jpg" width="100%">
+                        <img src="../images/valparaiso/bus_1.jpg" width="100%"></img>
                     </div>
                 </div>
                 
@@ -499,10 +238,10 @@
                 </p>
                 <div class="container">
                     <div class="tile">
-                        <img src="../images/valparaiso/toboggan.jpg" alt="">
+                        <img src="../images/valparaiso/toboggan.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valparaiso/monstera.jpg" alt="">
+                        <img src="../images/valparaiso/monstera.jpg" alt=""></img>
                     </div>
                 </div>
                 <p>Le soir on cuisine à l'hostel et rencontre une personne bien inspirante : un français d'une trentaine d'année parti depuis 1 an pour trouver un lieu où s'installer et créer son propre hostel. 
@@ -520,7 +259,7 @@
                 </p>
                 <div class="ligne">
                     <div class="left_70">
-                        <img src="../images/valparaiso/cerro.jpg" width="100%">
+                        <img src="../images/valparaiso/cerro.jpg" width="100%"></img>
                     </div>
                     <div class="right_30">
                         <p>Le lendemain on part à la découverte de Viña. 
@@ -537,13 +276,12 @@
                     Aïno rentre chez elle alors que Lauranne part au nord, et moi direction le sud ! 
                 </p>
             </div>
-<!--  -->
+
+
+
+{/* <!-- ---------- Valdivia ---------- -->             */}
             <div class="step_title">
                 <h2>Direction Valdivia</h2>
-                <div class="buttons_step">
-                    <button id="button_valdivia" onclick="toggleShowList('button_valdivia', 'step_valdivia')">Fermer étape</button>
-                    <button><a href="#holidays_before_classes">Retourner à la grande étape</a></button>
-                </div>
             </div>
     
             <div class="step" id="step_valdivia">
@@ -560,25 +298,19 @@
                 </p>
                 <div class="container">
                     <div class="tile">
-                        <img src="../images/valdivia/arrivee.jpg" alt="">
+                        <img src="../images/valdivia/arrivee.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/eglise.jpg" alt="">
+                        <img src="../images/valdivia/eglise.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/maison_jaune.jpg" alt="">
-                    </div>
-                    <!-- <div class="tile">
-                        <img src="../images/valdivia/maison_rose.jpg" alt="">
+                        <img src="../images/valdivia/maison_jaune.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/oiseau_2_copie.jpg" alt="">
-                    </div> -->
-                    <div class="tile">
-                        <img src="../images/valdivia/submarino.jpg" alt="">
+                        <img src="../images/valdivia/submarino.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/otarie_1.jpg" alt="">
+                        <img src="../images/valdivia/otarie_1.jpg" alt=""></img>
                     </div>
                 </div>
 
@@ -598,13 +330,13 @@
                     <div class="right_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/valdivia/arbol.jpg" alt="">
+                                <img src="../images/valdivia/arbol.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/puelche.jpg" alt="">
+                                <img src="../images/valdivia/puelche.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/flora_1.jpg" alt="">
+                                <img src="../images/valdivia/flora_1.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -641,19 +373,19 @@
                     <div class="left_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/valdivia/atras_truck.jpg" alt="">
+                                <img src="../images/valdivia/atras_truck.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/salto.jpg" alt="">
+                                <img src="../images/valdivia/salto.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/fort_1.jpg" alt="">
+                                <img src="../images/valdivia/fort_1.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/fort_2.jpg" alt="">
+                                <img src="../images/valdivia/fort_2.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/fort_vista.jpg" alt="">
+                                <img src="../images/valdivia/fort_vista.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -689,19 +421,19 @@
                     <div class="right_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/valdivia/jungle.jpg" alt="">
+                                <img src="../images/valdivia/jungle.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/flora_3.jpg" alt="">
+                                <img src="../images/valdivia/flora_3.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/jungle_vue.jpg" alt="">
+                                <img src="../images/valdivia/jungle_vue.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/vue_rocher.jpg" alt="">
+                                <img src="../images/valdivia/vue_rocher.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/serpent.jpg" alt="">
+                                <img src="../images/valdivia/serpent.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -734,19 +466,19 @@
                     <div class="right_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/valdivia/esc_jungle.jpg" alt="">
+                                <img src="../images/valdivia/esc_jungle.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/esc_jungle_3.jpg" alt="">
+                                <img src="../images/valdivia/esc_jungle_3.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/esc_jungle_2.jpg" alt="">
+                                <img src="../images/valdivia/esc_jungle_2.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/esc_ami.jpg" alt="">
+                                <img src="../images/valdivia/esc_ami.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/valdivia/esc_moutons.jpg" alt="">
+                                <img src="../images/valdivia/esc_moutons.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -758,30 +490,30 @@
                 </p>
                 <div class="container">
                     <div class="tile">
-                        <img src="../images/valdivia/esc_bloc.jpg" alt="">
+                        <img src="../images/valdivia/esc_bloc.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/esc_fissura.jpg" alt="">
+                        <img src="../images/valdivia/esc_fissura.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/etoile_de_mer.jpg" alt="">
+                        <img src="../images/valdivia/etoile_de_mer.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/esc_bloc_2.jpg" alt="">
+                        <img src="../images/valdivia/esc_bloc_2.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/esc_bloc_1.jpg" alt="">
+                        <img src="../images/valdivia/esc_bloc_1.jpg" alt=""></img>
                     </div>
                 </div>
                 <div class="container">
                     <div class="tile">
-                        <img src="../images/valdivia/esc_los_tres.jpg" alt="">
+                        <img src="../images/valdivia/esc_los_tres.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/esc_los_tres_2.jpg" alt="">
+                        <img src="../images/valdivia/esc_los_tres_2.jpg" alt=""></img>
                     </div>
                     <div class="tile">
-                        <img src="../images/valdivia/esc_sunset_hor.jpg" alt="">
+                        <img src="../images/valdivia/esc_sunset_hor.jpg" alt=""></img>
                     </div>
                 </div>
                 <p>Au retour, dernière galère pour moi. 
@@ -807,13 +539,10 @@
                 <p>C'est alors que cette tension horrible se termine et que je me dirige vers le terminal de bus bien reposé, près à entâmer la suite de mon voyage.</p>
             </div>
     
-<!--  -->
+
+{/* <!-- ---------- Puerto Varas ---------- --> */}
             <div class="step_title">
                 <h2>Puerto Varas !</h2>
-                <div class="buttons_step">
-                    <button id="button_puerto_varas" onclick="toggleShowList('button_puerto_varas', 'step_puerto_varas')">Fermer étape</button>
-                    <button><a href="#holidays_before_classes">Retourner à la grande étape</a></button>
-                </div>
             </div>
             <div class="step" id="step_puerto_varas">
 
@@ -833,19 +562,19 @@
                     <div class="right_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/puerto_varas/playa.jpg" alt="">
+                                <img src="../images/puerto_varas/playa.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/escalier.jpg" alt="">
+                                <img src="../images/puerto_varas/escalier.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/rails.jpg" alt="">
+                                <img src="../images/puerto_varas/rails.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/muro_1.jpg" alt="">
+                                <img src="../images/puerto_varas/muro_1.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/muro_2.jpg" alt="">
+                                <img src="../images/puerto_varas/muro_2.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -866,19 +595,19 @@
                     <div class="left_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/puerto_varas/volcan.jpg" alt="">
+                                <img src="../images/puerto_varas/volcan.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/boules_rouges.jpg" alt="">
+                                <img src="../images/puerto_varas/boules_rouges.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/plante.jpg" alt="">
+                                <img src="../images/puerto_varas/plante.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/selfie.jpg" alt="">
+                                <img src="../images/puerto_varas/selfie.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/montagne.jpg" alt="">
+                                <img src="../images/puerto_varas/montagne.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -919,19 +648,19 @@
                     <div class="right_70">
                         <div class="container">
                             <div class="tile">
-                                <img src="../images/puerto_varas/hostel_allemand_copie.jpg" alt="">
+                                <img src="../images/puerto_varas/hostel_allemand_copie.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/jardin.jpg" alt="">
+                                <img src="../images/puerto_varas/jardin.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/pastel_choclo.jpg" alt="">
+                                <img src="../images/puerto_varas/pastel_choclo.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/maison_ronde.jpg" alt="">
+                                <img src="../images/puerto_varas/maison_ronde.jpg" alt=""></img>
                             </div>
                             <div class="tile">
-                                <img src="../images/puerto_varas/iglesia_madera.jpg" alt="">
+                                <img src="../images/puerto_varas/iglesia_madera.jpg" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -940,26 +669,155 @@
                 <p>Je passe une journée très agréable à arpenter les rues de Frutillar puis Puerto Octay en mangeant des tonnes de fruits que l'on trouve dans un verger abandonné.</p>
             </div>
 
-            <!-- <div class="step_title">
+
+{/* <!-- ---------- Chiloé ---------- --> */}
+            <div class="step_title" id="step_chiloe_title" onclick="toggleShowList('step_chiloe_title', 'step_chiloe')">
                 <h2>Direction Chiloé !</h2>
-                <div class="buttons_step">
-                    <button id="button_chiloe" onclick="toggleShowList('button_chiloe', 'step_chiloe')">Fermer étape</button>
-                    <button><a href="#holidays_before_classes">Retourner à la grande étape</a></button>
-                </div>
             </div>
             
             <div class="step" id="step_chiloe">
-                <h3>iuzahd iu h</h3>
-                <p>aieuh qiuahqz diu akqzdi uakqsj</p>
-            </div> -->
+                <h3>Voyage vers Chiloé</h3>
 
+                <div class="ligne">
+                    <div class="left_30">
+                        <p>Chiloé étant une île, pour y accéder, on doit prendre le bateau. 
+                            Le bus monte directement dans une barque qui nous fait traverser le petit bras de mer. 
+                            Tout le monde sort sur le pont pour admirer la vue. 
+                            Il se voit parfois des dauphins, mais nous n'avons pas cette chance. 
+                            Des otaries et de nombreux oiseaux nous accompagnent pendant la traversée. 
+                        </p>
+                        <p>Arrivé à Castro, je passe devant l'église centrale qui se situe sur une superbe place où beaucoup de gens se promènenent, jouent, discutent... 
+                            Beaucoup d'artistes de rue s'y trouvent : clowns, danseurs, chanteurs, etc. 
+                            L'église est impressionnante de part sa différence avec nos églises européennes : toute fait de taules de métal colorées en jaune et rose.
+                        </p>
+                    </div>
+                    <div class="right_70">
+                        <div class="container">
+                            <div class="tile">
+                                <img src="../images/chiloe/bateau_2_copie.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/bateau_1.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/eglise_castro_2.jpg" alt=""></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3>Castro et ses palafitos</h3>
+                <p>Castro est spécifiquement connu pour ses palafitos : petites maisons construites au-dessus de l'eau. 
+                    Reposant sur des pilautis de bois, on a l'impression que ces maisons sont montées sur échasses.
+                </p>
+
+                <div class="container">
+                    <div class="tile">
+                        <img src="../images/chiloe/palafitos_2.jpg" alt=""></img>
+                    </div>
+                    <div class="tile">
+                        <img src="../images/chiloe/tag_baleine.jpg" alt=""></img>
+                    </div>
+                    <div class="tile">
+                        <img src="../images/chiloe/palafitos_1.jpg" alt=""></img>
+                    </div>
+                </div>
+
+                <h3>La population de l'hostel</h3>
+                <p>A l'hostel je retrouve des amis espagnols de Puerto Varas : ils ont eu un problème avec leur hostel et se sont retrouvés dans le même que mien à la denière minute !</p>
+                <p>Je rencontre un grand-père qui passe sa journée devant la télé car il vient de découvrir une série chilienne qu'il aime beaucoup. 
+                    Je passe donc un peu de temps à parler avec lui, tout en regardant la série. 
+                    J'ai du mal à comprendre ce qui se raconte, mais j'ai encore plus de mal à comprendre le grans-père. 
+                    Finalement, ce que je retiens de ce temps passé sur le canapé, c'est qu'on peut rigoler avec quelqu'un qu'on ne comprend pas, mais aussi que les mots "huea" et "huevon" ont une multitude d'applications.
+                </p>
+                <p>A l'hostel il y a de nombreux français, beaucoup trop ! 
+                    Il y a en fait 50% de français dans l'hostel donc je laisse tomber, je ne tente pour une fois pas de les fuir et je parle avec eux. 
+                    En fait c'est très reposant de pouvoir parler dans sa langue maternelle et ça me fait du bien. 
+                    Je parle avec une fille qui s'avère être dans la même école qu'un ami d'enfance. 
+                    En discutant un peu, je me rends compte qu'ils sont en fait voisins ! 
+                    C'est une coïncidence assez incroyable, d'autant plus qu'elle ne passe qu'une semaine au Chili. 
+                </p>
+
+                <h3>Voyage sur la petit île et Dalcahué</h3>
+
+                <div class="ligne">
+                    <div class="left_70">
+                        <div class="container">
+                            <div class="tile">
+                                <img src="../images/chiloe/eglise_noire_copie.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/marché.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/eglise_rouge.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/eglise_noire_int.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/muele.jpg" alt=""></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_30">
+                        <p>Je pars avec un français de l'hostel et une belge pour aller sur la petite île la plus accessible. 
+                            Nous allons jusqu'à Achao en bus, où nous voyons l'église la plus étonnante que j'ai jamais vu. 
+                            Toute noire de l'extérieur, dû à un revêtement en bois complètement pourri, sa structure en bois repose sur des grosses pierres posées à même la terre.
+                            Lorsqu'on entre dedans, c'est le grand changement. 
+                            Tout l'intérieur est en bois clair bien ponsé et lustré. 
+                            Il y a énormément de fenêtres et de lampes qui rendent l'ensemble très lumineux. 
+                            Les murs sont peints de blancs et l'hotel tout en bleu avec beaucoup de détails de découpe et de peinture.
+                        </p>
+                        <p>On repart en direction de Dalcahué, ville qui permet passer de la grande île à la petite, en passant par Curaco. 
+                            Curaco est un petit village sympathique, ayant une petite église colorée et une grande "costanera" toute en bois qui permet de traverser les marais pour observer les oiseaux. 
+                        </p>
+                    </div>
+                </div>         
+                
+                <p>A Dalcahué nous allons dans un marché, une "cocinera", semblable au marcado centrale de Gênes, Italie. 
+                    Des petits restaurants dans une grande halle avec des comptoirs qui donnent directement dans la cuisine pour manger dès que c'est prêt ! 
+                    Je n'ai Malheureusement pas pris de photos de cela, mais on y a mangé un "curanto" : plat typique de l'île, composé de mollusques (moules, palourdes), petites purées à la viande et enfin de la viande (porc, poulet, saucisse). 
+                    Le mélange est assez spécial mais on le mange volontiers !
+                </p>
+
+                <h3>Retour au nord : Ancud</h3>
+
+                <div class="ligne">
+                    <div class="left_30">
+                        <p>A Ancud, beaucoup d'églises dont une est impressionnante : la basilique centrale. 
+                            Cette basilique ressemblait anciennement à un mélange entre une église et un château fort : en forme d'église, construite en pierres grossières, faisant penser aux forts Vauban. 
+                            Lors d'un tremblement de terre elle a été complètement détruite comme la moitié de la ville, puis a été reconstruite lentement. 
+                            Commençant par une première pièce ayant des aires de salle des fêtes, on y a rajouté du volume petit à petit, pour terminer avec un clocher très stylisé, tout en béton crépi et armatures métalliques apparentes. 
+                            Ce clocher à des aires de Chaplin, d'industrie du début du XXème siècle.
+                        </p>
+                        <p>Je croise un canadien que j'ai lui aussi connu à Puerto Varas. 
+                            Je me balade dans la ville avec lui, passant par un point de vue alors qu'il y a un brouillard à couper au couteau, un arbre qui pousse sur un autre et une plage pleine de petits recoins. 
+                        </p>
+                    </div>
+                    <div class="right_70">
+                        <div class="container">
+                            <div class="tile">
+                                <img src="../images/chiloe/basilique_clocher.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/basilique_int.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/eglise_chemin.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/maison_coloree.jpg" alt=""></img>
+                            </div>
+                            <div class="tile">
+                                <img src="../images/chiloe/plage.jpg" alt=""></img>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <p>Je prends finalement mon bus de nuit en direction de Santiago, mettant fin à cette petit escapade avant de commencer les cours.</p>
+            </div>
         </div>
-
-
-        <footer>
-            <p>BERNOT Lilian</p>
-        </footer>
-    </body>
-    <script src="main.js"></script>
-
-</html>
+    </div>
+    )
+}
